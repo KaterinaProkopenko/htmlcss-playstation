@@ -13,3 +13,14 @@ div.ms-header-top img {
 a.navbar-brand img {
     height: 45px;
 }
+
+section#returnal {
+    height: 480px;
+    background-color: blue;
+}
+
+.box-riempitore {
+    width: 100%;
+    height: 200px;
+    background-color: plum;
+}
