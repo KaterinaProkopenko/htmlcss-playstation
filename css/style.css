@@ -25,6 +25,10 @@ div.box-riempitore {
     background-color: plum;
 }
 
+a.my-btn {
+    border-radius: 1.2rem;
+}
+
 div#jumbotron-playstation5 {
     height: 480px;
 }
