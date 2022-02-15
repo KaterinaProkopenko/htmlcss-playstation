@@ -28,3 +28,12 @@ div.box-riempitore {
 div#jumbotron-playstation5 {
     height: 480px;
 }
+
+div#it-takes-two {
+    height: 400px;
+    background-color: burlywood;
+}
+
+div#cards-it-takes-two {
+    background-color: rgb(31, 31, 31);
+}
