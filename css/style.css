@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.ms-header-top {
+    background-color: black;
+}
+
+div.ms-header-top img {
+    width: 90px;
+}
+
+a.navbar-brand img {
+    height: 45px;
+}
