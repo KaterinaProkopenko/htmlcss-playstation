@@ -2,6 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 div.ms-header-top {
     background-color: black;
 }
@@ -15,7 +23,6 @@ a.navbar-brand img {
 }
 
 footer {
-    height: 480px;
     background-color: rgb(0, 67, 156);
 }
 
@@ -57,10 +64,20 @@ div#playstation-plus {
 }
 
 img#footer-play-logo {
-    width: 100px;
-    
+    width: 80px;  
 }
 
 img#my-language {
-    width: 25px;
+    width: 18px;
 }
+
+p#country,
+a,
+#text-rights {
+    font-size: 13px;
+}
+
+img#sony-footer-logo {
+    width: 90px;
+}
+
