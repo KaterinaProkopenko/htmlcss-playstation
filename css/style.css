@@ -14,6 +14,11 @@ a.navbar-brand img {
     height: 45px;
 }
 
+footer {
+    height: 480px;
+    background-color: rgb(0, 67, 156);
+}
+
 div#jumbotron-returnal {
     height: 480px;
     background-color: blue;
@@ -49,4 +54,13 @@ div#cards-it-takes-two {
 div#playstation-plus {
     background-color: rgb(190, 188, 187);
     height: 400px;
+}
+
+img#footer-play-logo {
+    width: 100px;
+    
+}
+
+img#my-language {
+    width: 25px;
 }
