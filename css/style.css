@@ -29,6 +29,10 @@ a.my-btn {
     border-radius: 1.2rem;
 }
 
+div.cards-s-m img {
+    width: 100px;
+}
+
 div#jumbotron-playstation5 {
     height: 480px;
 }
