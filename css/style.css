@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+form img {
+    height: 30px;
+}
+
 div.ms-header-top {
     background-color: black;
 }
@@ -19,7 +23,7 @@ div.ms-header-top img {
 }
 
 a.navbar-brand img {
-    height: 45px;
+    height: 60px;
 }
 
 footer {
