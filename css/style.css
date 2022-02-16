@@ -31,8 +31,12 @@ footer {
 }
 
 div#jumbotron-returnal {
-    height: 480px;
-    background-color: blue;
+    height: 500px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 170px;
 }
 
 div.box-riempitore {
@@ -49,13 +53,20 @@ div.cards-s-m img {
     width: 100px;
 }
 
-div#jumbotron-playstation5 {
-    height: 480px;
+img#returnal-logo {
+    width: 260px;
 }
 
 div#it-takes-two {
-    height: 400px;
-    background-color: burlywood;
+    height: 500px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img#it-takes-logo {
+    width: 50%;
 }
 
 div#cards-it-takes-two {
