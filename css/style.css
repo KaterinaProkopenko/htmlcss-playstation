@@ -119,3 +119,7 @@ img#ps-april-games{
 img#ps-now-logo {
     width: 300px;
 }
+
+a#info {
+    text-decoration: underline;
+}
