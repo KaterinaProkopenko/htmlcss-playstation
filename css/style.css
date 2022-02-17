@@ -61,7 +61,7 @@ img#returnal-logo {
 }
 
 div#it-takes-two {
-    height: 500px;
+    height: 520px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@ div#cards-it-takes-two {
 
 div#playstation-plus {
     background-color: rgb(190, 188, 187);
-    height: 450px;
+    height: 380px;
 }
 
 img#footer-play-logo {
@@ -100,7 +100,7 @@ img#sony-footer-logo {
 }
 
 img#soulstorm {
-    height: 450px;
+    height: 380px;
 }
 
 img#ps-plus-logo {
@@ -109,11 +109,11 @@ img#ps-plus-logo {
 
 div#playstation-now {
     background-color: rgb(22, 28, 59);
-    height: 500px;
+    height: 430px;
 }
 
 img#ps-april-games{
-    height: 500px;
+    height: 430px;
 }
 
 img#ps-now-logo {
