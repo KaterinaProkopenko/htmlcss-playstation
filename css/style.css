@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+main {
+    margin-top: 107.85px;
+}
+
 form img {
     height: 30px;
 }
@@ -36,7 +40,6 @@ div#jumbotron-returnal {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 170px;
 }
 
 div.box-riempitore {
@@ -66,7 +69,7 @@ div#it-takes-two {
 }
 
 img#it-takes-logo {
-    width: 50%;
+    width: 250px;
 }
 
 div#cards-it-takes-two {
@@ -75,7 +78,7 @@ div#cards-it-takes-two {
 
 div#playstation-plus {
     background-color: rgb(190, 188, 187);
-    height: 400px;
+    height: 450px;
 }
 
 img#footer-play-logo {
@@ -96,3 +99,23 @@ img#sony-footer-logo {
     width: 90px;
 }
 
+img#soulstorm {
+    height: 450px;
+}
+
+img#ps-plus-logo {
+    width: 280px;
+}
+
+div#playstation-now {
+    background-color: rgb(22, 28, 59);
+    height: 500px;
+}
+
+img#ps-april-games{
+    height: 500px;
+}
+
+img#ps-now-logo {
+    width: 300px;
+}

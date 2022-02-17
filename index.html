@@ -17,7 +17,7 @@
 <body>
 
     <header>
-        <div class="container-fluid px-0">
+        <div class="container-fluid fixed-top px-0">
             <div class="ms-header-top text-end">
                 <img class="py-2" src="img/sony_logo.svg" alt="Sony-logo">
             </div>
@@ -90,11 +90,14 @@
         <section class="container-fluid mb-5">
             <!-- Jumbotron -->
             <div id="jumbotron-returnal" class="row px-4">
-                <div class="col-sm-12 col-md-11 col-lg-5 text-light">
+                <div class="col-sm-12 col-md-11 col-lg-5 text-light d-flex flex-column justify-content-center">
                     <img id="returnal-logo" src="img/returnal-hero-banner-logo.png" alt="Returnal logo">
                     <h1 class="py-3">Rompi il cerchio</h1>
                     <p>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-                    <a class="btn btn-danger my-btn" href="#" role="button">Acquista ora</a>
+                    <div>
+                        <a class="btn btn-danger my-btn" href="#" role="button">Acquista ora</a>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -139,10 +142,13 @@
                 </div>
 
                 <!-- Console Playstation 5 -->
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 d-flex flex-column justify-content-center">
                     <h2>Console PlayStation 5</h2>
                     <p>Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
-                    <a class="btn btn-primary my-btn" href="#" role="button">Maggiori informazioni</a>
+                    <div>
+                        <a class="btn btn-primary my-btn" href="#" role="button">Maggiori informazioni</a>
+                    </div>
+                    
                 </div>
 
                 <div class="col-sm-12 col-md-6">
@@ -183,16 +189,18 @@
         <section class="container-fluid">
             <!-- Jumbotron -->
             <div id="it-takes-two" class="row px-4 my-4 text-light">
-                <div class="col-sm-12 col-md-11 col-lg-5">
+                <div class="col-sm-12 col-md-11 col-lg-5 d-flex flex-column justify-content-center">
                     <img id="it-takes-logo" src="img/it-takes-two-logo.png" alt="It takes two-logo">
                     <h2>Un'avventura cooperativa selvaggia ti attende</h2>
                     <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-                    <a class="btn btn-danger my-btn" href="#" role="button">Acquista ora</a>
+                    <div>
+                        <a class="btn btn-danger my-btn" href="#" role="button">Acquista ora</a>
+                    </div>
                 </div>
             </div>
 
             <!-- Cards -->
-            <div id="cards-it-takes-two" class="row gy-5 px-4 pb-5 mb-4 text-light">
+            <div id="cards-it-takes-two" class="row gy-5 px-4 pb-5 text-light">
                 <!-- Titolo -->
                 <div class="col-12">
                     <h2>Nuove uscite</h2>
@@ -264,7 +272,7 @@
 
         <!-- Section - PlayStation 4 -->
         <section class="container-fluid">
-            <div id="playstation4" class="row px-4 my-4 gy-4">
+            <div id="playstation4" class="row px-4 my-5">
                 <div class="col-12 text-center">
                     <h1>Esplora PlayStation<span class="fs-4 align-top">&reg;</span> 4</h1>
                     <p class="text-secondary fs-6 mb-0">Giochi incredibili e intrattenimento senza fine.</p>
@@ -294,12 +302,16 @@
         <!-- Section - PlayStation Plus -->
         <section class="container-fluid">
             <div id="playstation-plus" class="row px-4 my-4 gy-4">
-                <div class="col-12 col-md-4">
-                    <div class="box-riempitore"></div>
+                <div class="col-12 col-md-5 col-lg-6 d-flex flex-column justify-content-center">
+                    <img id="ps-plus-logo" src="img/ps-plus-logo.png" alt="PlayStation Plus logo">
+                    <p class="py-5">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                    <div>
+                        <a class="btn text-primary btn-light disabled my-btn" href="#" role="button">Esplora PlayStation Plus</a>
+                    </div>
                 </div>
 
-                <div class="col-12 col-md-8 d-none d-md-block">
-                    <div class="box-riempitore"></div>
+                <div class="col-12 col-md-7 col-lg-6 d-none d-md-block mt-0 text-end">
+                    <img id="soulstorm" class="img-fluid" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="Playstation Plus">
                 </div>
             </div>
         </section>
@@ -308,9 +320,9 @@
         <section class="container-fluid">
             <div id="playstation-store" class="row px-4 my-4 gy-4">
                 <!-- Titolo e paragrafo -->
-                <div class="col-12">
-                    <h1>Nuovi sconti sul PlayStation Store</h1>
-                    <p></p>
+                <div class="col-12 text-center">
+                    <h1 class="mb-3">Nuovi sconti sul PlayStation Store</h1>
+                    <p class="text-secondary">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
                 </div>
 
                 <!-- Immagini -->
@@ -319,11 +331,11 @@
                 </div>
 
                 <div class="col-12 col-md-4">
-                    <img class="img-fluid" src="img/playstation-store-games-under-20-spotlight.jpg" alt="Giochi a meno">
+                    <img class="img-fluid" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="PlayStation Store golden week">
                 </div>
 
                 <div class="col-12 col-md-4">
-                    <img class="img-fluid" src="img/playstation-store-games-under-20-spotlight.jpg" alt="Giochi a meno">
+                    <img class="img-fluid" src="img/playstation-store-free-to-play-spotlight.png" alt="PlayStation Store free to play">
                 </div>
             </div>
         </section>
@@ -331,12 +343,17 @@
         <!-- Section - PlayStation Now -->
         <section class="container-fluid">
             <div id="playstation-now" class="row px-4 my-4 gy-4">
-                <div class="col-12 col-md-4">
-                    <div class="box-riempitore">Playstation now</div>
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <img id="ps-now-logo" src="img/ps-now-logo-two-column.png" alt="PlaStation Now logo">
+                    <p class="text-light m-0 py-5">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                    <div>
+                        <a class="btn btn-light my-btn" href="#" role="button">Esplora PlayStation Plus</a>
+                    </div>
                 </div>
 
-                <div class="col-12 col-md-8 d-none d-md-block">
-                    <div class="box-riempitore"></div>
+                <!-- Immagine -->
+                <div class="col-12 col-md-6 d-none d-md-block text-end">
+                    <img id="ps-april-games" class="img-fluid" src="img/ps-now-april-featured-image-block.png" alt="PlayStation April featured">
                 </div>
             </div>
         </section>
@@ -345,23 +362,23 @@
         <section class="container-fluid">
             <!-- Titolo -->
             <div id="social-media" class="row px-4 my-4">
-                <div class="col-12">
-                    <h1>Seguici sui social media</h1>
+                <div class="col-12 text-center">
+                    <h2 class="m-0 pt-3">Seguici sui social media</h2>
                 </div>        
             </div>
 
             <!-- Cards - social-media -->
-            <div class="cards-s-m d-flex flex-wrap justify-content-center">
+            <div class="cards-s-m mb-5 d-flex flex-wrap justify-content-center">
+                <img class="m-2" src="img/twitter.jpg" alt="Twitter">
                 <img class="m-2" src="img/facebook.jpg" alt="FaceBook">
-                <img class="m-2" src="img/facebook.jpg" alt="FaceBook">
-                <img class="m-2" src="img/facebook.jpg" alt="FaceBook">
-                <img class="m-2" src="img/facebook.jpg" alt="FaceBook">
+                <img class="m-2" src="img/instagram.jpg" alt="Instagram">
+                <img class="m-2" src="img/youtube.png" alt="YouTube">
             </div> 
         </section>
     </main>
 
     <footer class="container-fluid">
-        <div class="row px-4 my-4 text-light">
+        <div class="row px-4 text-light">
             <!-- Logo e language -->
             <div class="col-12 col-lg-6 mt-4">
                 <img id="footer-play-logo" class="d-block  mb-3" src="img/ps-footer.svg" alt="Play logo">
